@@ -14,6 +14,7 @@
 		DEAB72271B7B067E0042E595 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEAB72261B7B067E0042E595 /* Images.xcassets */; };
 		DEAB722A1B7B067E0042E595 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEAB72281B7B067E0042E595 /* LaunchScreen.xib */; };
 		DEAB72361B7B067E0042E595 /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB72351B7B067E0042E595 /* UITableViewController_Challenge_SolutionTests.m */; };
+		DEAB72411B7B07970042E595 /* MyTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB72401B7B07970042E595 /* MyTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DEAB722F1B7B067E0042E595 /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEAB72341B7B067E0042E595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEAB72351B7B067E0042E595 /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		DEAB723F1B7B07970042E595 /* MyTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewController.h; sourceTree = "<group>"; };
+		DEAB72401B7B07970042E595 /* MyTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +89,8 @@
 				DEAB72201B7B067E0042E595 /* ViewController.h */,
 				DEAB72211B7B067E0042E595 /* ViewController.m */,
 				DEAB72231B7B067E0042E595 /* Main.storyboard */,
+				DEAB723F1B7B07970042E595 /* MyTableViewController.h */,
+				DEAB72401B7B07970042E595 /* MyTableViewController.m */,
 				DEAB72261B7B067E0042E595 /* Images.xcassets */,
 				DEAB72281B7B067E0042E595 /* LaunchScreen.xib */,
 				DEAB72191B7B067E0042E595 /* Supporting Files */,
@@ -222,6 +227,7 @@
 				DEAB72221B7B067E0042E595 /* ViewController.m in Sources */,
 				DEAB721F1B7B067E0042E595 /* AppDelegate.m in Sources */,
 				DEAB721C1B7B067E0042E595 /* main.m in Sources */,
+				DEAB72411B7B07970042E595 /* MyTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
